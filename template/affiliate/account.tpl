@@ -1,10 +1,6 @@
 <?php echo $header; ?>
 <section id="content">
   <?php echo $content_top; ?>
-  <div class="clear"></div>
-  <?php echo $column_left; ?>
-  <?php echo $column_right; ?>
-  <div class="clear"></div>
   	<section class="breadcrumb">
     	<?php foreach ($breadcrumbs as $breadcrumb) { ?>
     		<?php echo $breadcrumb['separator']; ?><a href="<?php echo $breadcrumb['href']; ?>"><?php echo $breadcrumb['text']; ?></a>
@@ -34,6 +30,10 @@
       		<li><a href="<?php echo $transaction; ?>"><?php echo $text_transaction; ?></a></li>
     	</ul>
   	</section>
-  	<?php echo $content_bottom; ?>
+    <div class="clear"></div>
+    <?php echo $column_left; ?>
+    <?php echo $column_right; ?>
+    <div class="clear"></div>
+    <?php echo $content_bottom; ?>
 </section>
 <?php echo $footer; ?>

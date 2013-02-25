@@ -1,10 +1,6 @@
 <?php echo $header; ?>
 <section id="content">
 	<?php echo $content_top; ?>
-  <div class="clear"></div>
-  <?php echo $column_left; ?>
-  <?php echo $column_right; ?>
-  <div class="clear"></div>
   	<section class="breadcrumb">
     	<?php foreach ($breadcrumbs as $breadcrumb) { ?>
     		<?php echo $breadcrumb['separator']; ?>
@@ -43,6 +39,10 @@
 			<a href="<?php echo $insert; ?>" class="button"><?php echo $button_new_address; ?></a>
 		</div>
   	</div>
-  	<?php echo $content_bottom; ?>
+    <div class="clear"></div>
+    <?php echo $column_left; ?>
+    <?php echo $column_right; ?>
+    <div class="clear"></div>
+    <?php echo $content_bottom; ?>
 </section>
 <?php echo $footer; ?>
