@@ -46,6 +46,7 @@
 	<link rel="stylesheet" type="text/css" href="catalog/view/javascript/jquery/colorbox/colorbox.css" media="screen" />
 	<script type="text/javascript" src="catalog/view/javascript/jquery/tabs.js"></script>
 	<script type="text/javascript" src="catalog/view/javascript/common.js"></script>
+	<script type="text/javascript" src="catalog/view/theme/hazelandmarie/js/theme.js"></script>
 	<link href='http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic' rel='stylesheet' type='text/css'>
 	<?php foreach ($scripts as $script) { ?>
 		<script type="text/javascript" src="<?php echo $script; ?>"></script>

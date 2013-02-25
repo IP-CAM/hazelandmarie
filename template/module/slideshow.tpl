@@ -1,5 +1,5 @@
-<script type="text/javascript" src="catalog/view/javascript/jquery/supersized/supersized.3.2.7.min.js"></script>
-<script type="text/javascript" src="catalog/view/javascript/jquery/supersized/supersized.shutter.min.js"></script>
+<script type="text/javascript" src="catalog/view/theme/hazelandmarie/js/supersized/supersized.3.2.7.min.js"></script>
+<script type="text/javascript" src="catalog/view/theme/hazelandmarie/js/supersized/supersized.shutter.min.js"></script>
 <script type="text/javascript">
       
       jQuery(function($){
